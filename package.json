@@ -1,0 +1,31 @@
+{
+  "name": "scrape-the-job-boards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGonc189/scrape-the-job-boards.git"
+  },
+  "author": "Jason M. Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGonc189/scrape-the-job-boards/issues"
+  },
+  "homepage": "https://github.com/JGonc189/scrape-the-job-boards#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.3.1",
+    "shelljs": "^0.8.3",
+    "unique-filename": "^1.1.1"
+  },
+  "bin": {
+    "scrape": "./index.js"
+  }
+}
